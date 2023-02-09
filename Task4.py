@@ -19,7 +19,7 @@
 
 revenue = int(input("Введите выручку фирмы: ")) # Выручка
 costs = int(input("Введите издержки фирмы: ")) # Издержки
-if(revenue > costs): # если выручка > прибыли
+if revenue > costs : # если выручка > прибыли
     financial_result = "profit" #Финансовый результат - прибыль
     profit = revenue - costs # Прибыль = 500
     profitability = costs / revenue #Рентабельность
